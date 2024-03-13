@@ -15,17 +15,17 @@ const BLOG = {
   IS_TAG_COLOR_DISTINGUISHED: process.env.NEXT_PUBLIC_IS_TAG_COLOR_DISTINGUISHED === 'true' || true, // 对于名称相同的tag是否区分tag的颜色
 
   // 3.14.1版本后，欢迎语在此配置，英文逗号隔开 ,  即可支持多个欢迎语打字效果。
-  GREETING_WORDS: process.env.NEXT_PUBLIC_GREETING_WORDS || 'Hi，我们致力于成为可再生能源领域的领先科技企业, Hi，我们专注于风能、太阳能、储能、氢能、电制燃料及碳捕捉封存（CCS）技术的研发与推广,Hi，我们通过整合人工智能技术、先进半导体技术来优化能源解决方案，提高能源利用效率',
+  GREETING_WORDS: process.env.NEXT_PUBLIC_GREETING_WORDS || 'Hi，Let’s explore how Ai can help ReEnergy, Hi，Let’s explore how advanced chips can help ReEnergy,Hi，Let’s explore more about ReEnergy',
 
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
-  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '河星再生能源科技', // 您的昵称 例如 tangly1024
-  BIO: process.env.NEXT_PUBLIC_BIO || '河星再生能源科技致力于成为可再生能源领域的领先科技企业，专注于风能、太阳能、储能、氢能、电制燃料及碳捕捉封存（CCS）技术的研发与推广。通过整合人工智能技术、先进半导体技术，我们旨在优化能源解决方案，提高能源利用效率，降低成本，并推动可再生能源的广泛应用。', // 作者简介
+  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'MarsReEnergy', // 您的昵称 例如 tangly1024
+  BIO: process.env.NEXT_PUBLIC_BIO || 'Let’s explore more about ReEnergy', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://www.MarsReEnergy.com', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '人工智能技术, 先进半导体技术, 风能技术, 太阳能技术, 储能技术, 氢能技术, 电制燃料技术, 碳捕捉封存技术', // 网站关键词 英文逗号隔开
 
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
-  CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'innrenewable@aliyun.com', // 邮箱地址 例如mail@tangly1024.com
+  CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'MarsReEnergy@outlook.com', // 邮箱地址 例如mail@tangly1024.com
   CONTACT_WEIBO: process.env.NEXT_PUBLIC_CONTACT_WEIBO || '', // 你的微博个人主页
   CONTACT_TWITTER: process.env.NEXT_PUBLIC_CONTACT_TWITTER || '', // 你的twitter个人主页
   CONTACT_GITHUB: process.env.NEXT_PUBLIC_CONTACT_GITHUB || '', // 你的github个人主页 例如 https://github.com/tangly1024
